@@ -22,9 +22,11 @@ public class GuestBook implements ActionListener {
 	// Guest #3: Greg Yoo
 	// Guest #4: Cassie Johnson
 	ArrayList<String> names = new ArrayList<String>();
+
 	String ans;
+	String gn = "Guest";
 	// other guests:
-	// Janet Patel
+	//
 	// maliya song
 	JPanel panel = new JPanel();
 	JButton view = new JButton("View Guestbook");
@@ -42,11 +44,13 @@ public class GuestBook implements ActionListener {
 		add.addActionListener(this);
 		view.addActionListener(this);
 		System.out.println("the fairmont grande league");
+
 		names.add("bob cornick");
 		names.add("kato johnson");
 		names.add("cassie yoo");
 		names.add(" janet mafong");
 		names.add("maliya park");
+
 	}
 
 	public static void main(String[] args) {
@@ -72,9 +76,15 @@ public class GuestBook implements ActionListener {
 			// System.out.println("\n");
 
 			// iterating through list with for-each loop
-			String mikeforgotitwasntnoshavenovember= "";
+			String mikeforgotitwasntnoshavenovember = "";
+			for (int i = 0; i < names.size(); i++) {
+				String s = names.get(i);
+
+			}
+			System.out.println("\n");
+
 			for (String s : names) {
-				mikeforgotitwasntnoshavenovember+=s+"\n";
+				mikeforgotitwasntnoshavenovember += "Guest:  " + s + "\n";
 			}
 			JOptionPane.showMessageDialog(null, mikeforgotitwasntnoshavenovember);
 			System.out.println("\n");
