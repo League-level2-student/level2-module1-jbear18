@@ -9,10 +9,10 @@ public class IntroToArrayLists {
 		//   Don't forget to import the ArrayList class
 		ArrayList<String> PetNames = new ArrayList<String>();
 		//2. Add five Strings to your list
-	PetNames.add("Wesley");
+	PetNames.add("Cami");
 	PetNames.add("Sam");
 	PetNames.add("Dylan");
-	PetNames.add("Sean");
+	PetNames.add("Isla");
 	PetNames.add("Jonathan");
 		//3. Print all the Strings using a standard for-loop
 	System.out.println("Here are some pet names for y'all to enjoy:");
@@ -26,9 +26,10 @@ public class IntroToArrayLists {
 		}
 		
 		//5. Print only the even numbered elements in the list.
-		
+		System.out.println("Sam");
+		System.out.println("Isla");
 		//6. Print all the Strings in reverse order.
 		
 		//7. Print only the Strings that have the letter 'e' in them.
-	}
+	}//none of them have e's in them:)
 }}
